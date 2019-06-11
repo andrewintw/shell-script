@@ -13,7 +13,7 @@ show_usage() {
 	cat <<EOF
 
 Usage:
-      $0 <-p PART_NO> [-d] [-r] <PATH_TO_IMAGE> [firmware.img]
+      $0 [-p PART_NO] [-d] [-r] [PATH_TO_IMAGE]
 
 Params:
        -p PART_NO  # firmware partition { 1: firmware1; 2: firmware2: 3:both }
